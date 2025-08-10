@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-10T14:11:33 GMT-03:00" name="Surefire suite" finished-at="2025-08-10T14:11:57 GMT-03:00" duration-ms="23936">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGrunner@470f1802]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-08-10T14:11:33 GMT-03:00" name="Surefire test" finished-at="2025-08-10T14:11:57 GMT-03:00" duration-ms="23936">
+      <class name="cucumber.TestNGrunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:33 GMT-03:00" name="setUpClass" finished-at="2025-08-10T14:11:34 GMT-03:00" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b9c42bd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:34 GMT-03:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-10T14:11:38 GMT-03:00" duration-ms="4180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative age input"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Carbohydrate Calculator - Negative Input Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:38 GMT-03:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-10T14:11:41 GMT-03:00" duration-ms="2631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative feet input"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Carbohydrate Calculator - Negative Input Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:41 GMT-03:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-10T14:11:43 GMT-03:00" duration-ms="2534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative inches input"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Carbohydrate Calculator - Negative Input Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:43 GMT-03:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-10T14:11:47 GMT-03:00" duration-ms="3451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative weight input"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Carbohydrate Calculator - Negative Input Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:47 GMT-03:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-10T14:11:49 GMT-03:00" duration-ms="2505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Boundary age check below 18"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Carbohydrate Calculator - Negative Input Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:49 GMT-03:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-10T14:11:52 GMT-03:00" duration-ms="2958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Calculate carbohydrate needs for a user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Carbohydrate Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:52 GMT-03:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-10T14:11:55 GMT-03:00" duration-ms="2496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Calculate carbohydrate needs for a user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Carbohydrate Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:55 GMT-03:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-10T14:11:57 GMT-03:00" duration-ms="2428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Calculate carbohydrate needs for a user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Carbohydrate Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGrunner@470f1802]" started-at="2025-08-10T14:11:57 GMT-03:00" name="tearDownClass" finished-at="2025-08-10T14:11:57 GMT-03:00" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGrunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
